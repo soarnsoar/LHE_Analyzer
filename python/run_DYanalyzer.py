@@ -1,6 +1,6 @@
 import FWCore.ParameterSet.Config as cms
 
-process = cms.Process("DY")
+process = cms.Process("DYLHE")
 
 process.load("FWCore.MessageService.MessageLogger_cfi")
 
