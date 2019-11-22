@@ -180,11 +180,11 @@ DYanalyzerLHE::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup)
 
      Int_t id = lheEvent.IDUP[idxParticle];
      Int_t status = lheEvent.ISTUP[idxParticle];
-     double px = lheParticles[idxParticle][0];
-     double py = lheParticles[idxParticle][1];
-     double pz = lheParticles[idxParticle][2];
-     double ee = lheParticles[idxParticle][3];
-     double mm = lheParticles[idxParticle][4];
+     //double px = lheParticles[idxParticle][0];
+     //double py = lheParticles[idxParticle][1];
+     //double pz = lheParticles[idxParticle][2];
+     //double ee = lheParticles[idxParticle][3];
+     //double mm = lheParticles[idxParticle][4];
      //cout<<"idxParticle="<<idxParticle<<" id="<<id<<" status="<<status<<" px="<<px<<" py="<<py<<" pz="<<pz<<" ee="<<ee<<" mm="<<mm<<endl;
      if(status==1){
        if(id==13){
